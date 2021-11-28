@@ -3,6 +3,7 @@
     font-family: 'Roboto' , sans-serif;
     margin:0;
 }
+
 nav, main, header{
     width: 1200px;
     margin: auto;
@@ -18,35 +19,8 @@ nav{
 }
 main{
     background-color: #F4F4F4;
-    height: 100vh;
-    padding: 36px 100px 36px 100px;
-}
-h2{
-    font-size: 36px;
-    font-weight: 700px;
-    padding-left: 65px;
-    padding-top: 30px;
-    padding-right: 517px;
-}
-p{
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    text-indent: 25px;
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 42px;
-    margin-right: 41px;
-}
-.content{
-    background-color: white;
-    
-}
-.my-class{
-    display: inline;
-    margin-left: 42px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 738px;
+    padding: 36px 100px 1px 100px;
 }
 h1{
     display: inline;
@@ -56,6 +30,26 @@ h1{
     text-align: center;
     position: absolute;
     line-height: 200px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700px;
+    padding-left: 65px;
+    padding-top: 30px;
+}
+p{
+    
+    align-items: center;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 44px;
+    margin-right: 41px;
+}
+.background{
+    background-color: white;
+
 }
 li{
     color: #F0F2F4;
@@ -67,10 +61,28 @@ li{
     text-align: center;
     line-height: 50px;
 }
-#tb1{
-    margin-left: 55px;
+li:hover{
+    text-decoration: underline;
 }
-#logo{
+.img1, .img2, .img3{
+    display: inline;
+    width: 280px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img1{
+    margin-left: 42px;
+}
+.img2{
+    margin-left: 38px;
+}
+.img3{
+    margin-left: 38px;
+}
+.links{
+    margin-left: 60px;
+}
+.logo{
     margin-left: 110px;
     margin-top: 15px;
 }
