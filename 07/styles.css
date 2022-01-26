@@ -1,0 +1,63 @@
+* { 
+    font-family: 'Roboto' , sans-serif; 
+
+}
+body{ 
+    background-color: #3398db; 
+}
+h1{ 
+    font-size: 40px; 
+    font-weight: 700; 
+    color: #757472; 
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+} 
+fieldset{ 
+    width: 330px; 
+    height: 350px; 
+    background-color: white; 
+    border-radius: 5px; 
+    border: white; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+} 
+input{ 
+    box-sizing: border-box; 
+    height: 45px; 
+    width: 270px; 
+    background-color: #ebf0f1; 
+    border-radius:5px; 
+    border: none; 
+    margin-left: 28px;
+    padding-left: 10px;
+    font-size: 17px; 
+} 
+input::placeholder{ 
+    color: #b8b7be; 
+    text-align: center; 
+    font-size: 18px; 
+} 
+button{
+    text-align: center; 
+    font-size: 16px; 
+    color: white; 
+    height: 50px; 
+    width: 270px; 
+    margin-left: 28px; 
+    border-radius:4px; 
+    border: none; 
+    background-color: #3398db; 
+} 
+a{   
+    color: black; 
+    margin-left: 95px; 
+}
+.Input{
+    margin-bottom: 15px;
+}
+a:hover{
+    text-decoration: none;
+}
